@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Essakkidevi- My Portfolio</title>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+
+ 
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+ 
+  <header class="site-header">
+    <div class="nav-container">
+      <h1 id="logo">Priya<span>Sharma</span></h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h2>Hello, I'm Essakkidevi-!</h2>
+      <p>I design clean, responsive websites that speak for your brand.</p>
+      <blockquote>“Design is not just what it looks like — it’s how it works.”</blockquote>
+      <a href="#projects" class="btn">Explore My Work</a>
+    </div>
+  </section>
+
+ 
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I'm a freelance web designer from Chennai who loves making modern websites using HTML, CSS, and a bit of magic . I enjoy learning new things and turning creative ideas into living webpages.</p>
+  </section>
+
+ 
+  <section id="projects" class="projects">
+    <h2>My Recent Works</h2>
+    <div class="grid-box">
+      <div class="card">Travel Blog Design</div>
+      <div class="card">Restaurant Website</div>
+      <div class="card">Portfolio Layout</div>
+      <div class="card">Fashion Page</div>
+      <div class="card">Birthday invitations</div>
+      <div class="card">posters</div>
+    </div>
+  </section>
+
+ 
+  <section id="contact" class="contact">
+    <h2>Fill it Now</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <textarea rows="5" placeholder="Write your message..."></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+  
+  <footer>
+    <p>© 2025 Essakkidevi- Designed  by me.</p>
+    <button id="topBtn">↑ Top</button>
+  </footer>
+
+  <script>
+
+    const topBtn = document.getElementById("topBtn");
+    topBtn.addEventListener("click", () => window.scrollTo({top: 0, behavior: 'smooth'}));
+  </script>
+</body>
+</html>
